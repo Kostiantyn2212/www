@@ -1,0 +1,35 @@
+.container{
+    width: 350px;
+    height: 330px;
+    border: 2px solid rgb(3, 85, 30);
+    background-color: rgb(215, 255, 199);
+    border-radius: 20px;
+
+}
+.Winter{
+    color: blue;
+}
+.Winter ul{
+    list-style-image: url('markers/snow.png');
+}
+
+.Spring{
+    color: green;
+}
+.Spring ul{
+    list-style-image: url('markers/leaf.png');
+}
+.Summer{
+    color: rgb(189, 209, 9);
+}
+
+.Summer ul{
+    list-style-image: url('markers/sun.png');
+}
+
+.Autumn{
+    color: rgb(168, 112, 14);
+}
+.Autumn ul{
+    list-style-image: url('markers/rain.png');
+}

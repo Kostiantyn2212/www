@@ -1,0 +1,76 @@
+.container{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 1px 25px 1px;
+}
+.One{
+    width: 260px;
+    height: 10px;
+    background-color: rgb(230, 0, 0);
+    padding: 10px 5px 10px 5px;
+    margin: 10px 1px 5px 15px;
+}
+.Apple{
+    width: 47px;
+    height: 21px;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 0px 2px 10px;
+    margin: -28px -15px -2px 20px;
+}
+.Two{
+    width: 260px;
+    height: 10px;
+    background-color: rgb(230, 0, 0);
+    padding: 10px 5px 10px 5px;
+    margin: 10px 1px 5px 15px;
+}
+.Orange{
+    width: 57px;
+    height: 21px;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 0px 2px 10px;
+    margin: -28px -15px -2px 20px;
+}
+.Three{
+    width: 260px;
+    height: 10px;
+    background-color: rgb(230, 0, 0);
+    padding: 10px 5px 10px 5px;
+    margin: 10px 1px 5px 15px;
+}
+.Pineapple{
+    width: 70px;
+    height: 21px;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 0px 2px 10px;
+    margin: -28px -15px -2px 20px;
+}
+.Four{
+    width: 260px;
+    height: 10px;
+    background-color: rgb(230, 0, 0);
+    padding: 10px 5px 10px 5px;
+    margin: 10px 1px 5px 15px;
+}
+.Pear{
+    width: 40px;
+    height: 21px;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 0px 2px 10px;
+    margin: -28px -15px -2px 20px;
+}
+.Five{
+    width: 260px;
+    height: 10px;
+    background-color: rgb(230, 0, 0);
+    padding: 10px 5px 10px 5px;
+    margin: 10px 1px 5px 15px;
+}
+.Cherry{
+    width: 54px;
+    height: 21px;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 0px 2px 10px;
+    margin: -28px -15px -2px 20px;
+}

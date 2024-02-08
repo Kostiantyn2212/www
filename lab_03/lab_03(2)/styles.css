@@ -1,0 +1,46 @@
+.table th, .table td{
+    border: 1px solid black;
+}
+caption{
+    text-align: center;
+    font-weight: bold;
+}
+.table{
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+.day{
+    width: 5px;
+}
+.pair{
+width: 30px;
+}
+.week{
+    width: 40px;
+}
+td.sub{
+    border-bottom: hidden;
+}
+td.sub_1{
+        border-bottom: dotted 2px;
+}
+th.pair_1{
+    border-bottom: dotted 2px;
+}
+td.au{
+    border-bottom: hidden;
+}
+td.au_1{
+    border-bottom: dotted 2px;
+}
+td.rl{
+    border-right: dashed 2px;
+    text-align: center;
+}
+.column{
+    background-color: #D9E1F2;
+    border: 3px solid;
+}
+th.green{
+    background-color: #E2EFDA;
+}
