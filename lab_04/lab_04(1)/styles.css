@@ -1,0 +1,16 @@
+.big {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.small {
+    margin: 5px;
+
+}
+
+.img {
+    margin: 5px;
+    border-radius: 20%; 
+}
