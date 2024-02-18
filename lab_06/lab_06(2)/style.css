@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    perspective: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper::before {
+    content: "Hello";
+}
+
+.b1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #b64486;
+    border: 4px solid #8b0252;
+    box-sizing: border-box;
+    transform-origin: left center;
+    transition: all 0.5s ease;
+}
+
+.b2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #b64486;
+    border: 4px solid #8b0252;
+    box-sizing: border-box;
+    transform-origin: right center;
+    transition: all 0.5s ease;
+}
+
+.wrapper:hover .b1 {
+    transform: rotateY(70deg);
+}
+
+.wrapper:hover .b2 {
+    transform: rotateY(-70deg);
+}

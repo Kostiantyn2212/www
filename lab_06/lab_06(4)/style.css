@@ -1,0 +1,24 @@
+.container {
+    width: 30%;
+    overflow: hidden;
+    display: flex;
+    border-radius: 20px;
+    border: 4px solid #2c659e;
+}
+.container::before{
+    content: "";
+    width: 100px;
+    height: 20px;
+    position: relative;
+    background: #2c659e;
+    animation: ddd 1s linear infinite;
+}
+@keyframes ddd {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
