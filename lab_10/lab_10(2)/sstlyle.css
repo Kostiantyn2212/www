@@ -1,0 +1,231 @@
+ body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu{
+    display: flex;
+    direction: column;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    box-sizing:content-box;
+    flex-wrap: wrap;
+    position: fixed;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: rgb(239, 237, 237) ;
+    height: 10%;
+    z-index: 1;
+}
+.menu h1{
+    width: 20%;
+}
+.menu p{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    font-size: 20px;
+}
+
+.menu input[type="text"]{
+    width: 25%;
+    height: 60%;
+    margin:10px;
+    border-radius: 20px;
+}
+
+.menu button{
+    width: 15%;
+    margin: 10px;
+    height: 70%;
+}
+.menu button, .main button{
+    border-radius: 10px;
+    font-size: 20px;
+    background:  none;
+}
+.red{
+    color:crimson;
+    border: 3px solid crimson;
+}
+.blue{
+    color:cornflowerblue;
+    border: 3px solid cornflowerblue;
+}
+.green{
+    color:springgreen;
+    border: 3px solid springgreen;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(6, 1fr);
+    position: absolute;
+    z-index: 0;
+    top: 18%;
+    height: 100%;
+    width: 95%;
+    font-size: 20px;
+    gap: 10px;
+    margin: 10px
+}
+.sort{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sort input{
+    width: 80%;
+}
+.but1  {
+    grid-column: 1;
+    grid-row: 3;
+}
+.but2{
+    grid-column: 1;
+    grid-row: 4;
+}
+.info {
+    grid-column: 2;
+    grid-row: 4/span 2;
+    font-size: 14px;
+}
+.photo{
+    grid-column: 2;
+    grid-row: 2/span 2;
+}
+h3{
+    font-size: 20px;
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+}
+.main img{
+    width: 400px;
+    border-radius: 15px;
+}
+.main button{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    width: 70%;
+    margin: 10px;
+    height: 70%;
+}
+
+.overlay {
+    background-color: rgb(9, 9, 9);
+    width: 100%;
+    height: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0.7;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 3;
+    height: 600px;
+    width: 450px;
+    border-radius: 15px ;
+    box-sizing: border-box;
+    left: 35%;
+    top: 10%;
+    overflow: hidden;
+}
+.container h2{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin: 0px;
+    padding: 10px 15px;
+   background-color:  rgba(229, 230, 234, 0.981);
+   color: rgb(0, 162, 255);
+   font-weight: lighter;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    width: 95%;
+    margin: 0 auto;
+    width: 95%;
+}
+.form-group label{
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+.form-group input{
+    width: 95%;
+    height: 25px;
+    border-radius: 20px;
+    padding: 3px 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px;
+    color:rgb(0, 0, 0);
+    box-shadow: 0px 2px 5px rgb(56, 57, 57);
+}
+.form-group  select{
+    width: 99%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 3px 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px;
+    color:rgb(0, 0, 0);
+    box-shadow: 0px 2px 5px rgb(56, 57, 57);
+}
+
+#imageContainer{
+    background-color: rgb(144, 146, 147);
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+#imageContainer img{
+    width: 100%;
+}
+.container button{
+    background-color:  rgb(255, 255, 255);
+    width: 49%;
+    height: 70px;
+    margin: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.container button:hover{
+    transform: scale(1.1);
+}
+.container button:active{
+    transform: scale(1);
+}
+.new_img{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.head button{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -13px;
+    right: 0;
+    color: gray;
+    border: none;
+    border-radius: 0;
+
+}
